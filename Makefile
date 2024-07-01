@@ -3,7 +3,7 @@
 all: clean build test
 
 clean:
-	rm -f main main.db *.sql.go
+	rm -f main main.db models.go *.sql.go
 
 build:
 	sqlc generate

@@ -1,3 +1,4 @@
+db.go
 main
 main.db
 models.go
